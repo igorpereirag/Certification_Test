@@ -10,7 +10,7 @@ Esta aplicação é um sistema de certificação de conhecimentos em diferentes 
 - **Autenticação**: A autenticação de usuários garante que apenas usuários registrados possam realizar testes e visualizar o ranking.
 
  ### endpoints
-[cllique aqui para interagir com a api](http://localhost:8085/swagger-ui/index.html)
+[Documentação da api no swegger](http://localhost:8085/swagger-ui/index.html)
  ![alt text](image.png)
 
 
