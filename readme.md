@@ -17,7 +17,6 @@ Esta aplicação é um sistema de certificação de conhecimentos em diferentes 
 ### Tecnologias Utilizadas
 
 - **Java**: A aplicação é desenvolvida principalmente em Java, utilizando o framework Spring Boot para facilitar o desenvolvimento de aplicativos web.
-- **SpringBoot**: para criar a estrutura e a lógica da aplicação
 - **Spring Data JPA**: Para interagir com o banco de dados.
 - **docker-compose**: Para criar uma imagem do banco de dados postgree.
 - **swagger**: para documentar a api.
@@ -27,8 +26,8 @@ Esta aplicação é um sistema de certificação de conhecimentos em diferentes 
 
 1. **Java Development Kit (JDK)**: Certifique-se de ter o JDK instalado em sua máquina.
 2. **Maven**: Utilizado para gerenciamento de dependências. Certifique-se de ter o Maven instalado.
-3. **Banco de Dados**: A aplicação utiliza um banco de dados SQL. Você pode configurar as propriedades de conexão no arquivo `application.properties`. bem como utlizar uma imagem do banco de dados postgree no arquivo 'docker-compose' na raiz do projeto onde poderá cria-lo com o comando: 'docker-compose up -d'.
-4. **IDE**: Recomenda-se utilizar uma IDE como IntelliJ IDEA ou Eclipse para desenvolvimento e execução da aplicação.
+3. **Banco de Dados**: A aplicação utiliza um banco de dados SQL. Você pode configurar as propriedades de conexão no arquivo `application.properties`. bem como utlizar uma imagem do banco de dados postgree no arquivo 'docker-compose' na raiz do projeto onde poderá cria-lo com o comando: 'docker-compose up -d'. apois isso rode o 'seed' presente no diretorio para inserir os dados mocados no banco de dados.
+
 
 ### Execução da Aplicação
 1. Clone o repositório da aplicação para sua máquina local.
